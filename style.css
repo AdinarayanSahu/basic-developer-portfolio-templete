@@ -18,8 +18,8 @@
 
 :root {
     --primary-color: rgb(110, 7, 243);
-    --primary-font: europa;
-    --secondary-font: Source Code Pro;
+    --primary-font: 'europa', sans-serif;
+    --secondary-font: 'Source Code Pro', monospace;
     --skill-icons-back: #5BE9B9;
 }
 
@@ -166,7 +166,6 @@ body {
 .skill-section {
     width: 100vw;
     height: auto;
-    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,8 +183,7 @@ body {
     justify-content: top;
     align-items: center;
     box-shadow: 0 0 1px ;
-    position: relative;
-    top: -200px;
+    margin-top: -200px;
 }
 
 
@@ -216,14 +214,14 @@ body {
     width: 30px;
 }
 
-.skill-cards h1 {
+.skill-cards h1, .recent-works h1 {
     font-family: var(--secondary-font);
     color: black;
     font-size: 23px;
     margin: 24px 0;
 }
 
-.skill-cards p {
+.skill-cards p, .recent-works p {
 
     font-family: var(--primary-font);
     font-size: 17px;
@@ -246,4 +244,23 @@ body {
     font-size: 17px;
     padding: 5px;
 
+}
+
+.recent-works{
+    width: 100vw;
+    height: auto;
+    margin: 100px 0 0 0;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.recent-works h1{
+    font-size: 30px;
+}
+
+.recent-works p{
+    font-size: 18px;
 }
