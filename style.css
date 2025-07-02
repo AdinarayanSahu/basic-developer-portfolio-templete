@@ -175,8 +175,8 @@ body {
 
 .skill-cards {
     box-sizing: border-box;
-    height: 650px;
-    width: 350px;
+    height: 800px;
+    width: 450px;
     padding: 50px 20px 0 20px;
     background-color: white;
     display: flex;
@@ -219,14 +219,14 @@ body {
 .skill-cards h1 {
     font-family: var(--secondary-font);
     color: black;
-    font-size: 20px;
+    font-size: 23px;
     margin: 24px 0;
 }
 
 .skill-cards p {
 
     font-family: var(--primary-font);
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .skill-section li {
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px;
 
 }
