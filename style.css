@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -16,12 +16,14 @@
 
 
 
-:root{
+:root {
     --primary-color: rgb(110, 7, 243);
     --primary-font: europa;
+    --secondary-font: Source Code Pro;
+    --skill-icons-back: #5BE9B9;
 }
 
-header{
+header {
     height: 150px;
     width: 100vw;
     align-items: center;
@@ -31,29 +33,29 @@ header{
     color: black;
 }
 
-ul{
+ul {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-ul li{
+ul li {
     list-style: none;
-    padding: 20px; 
+    padding: 20px;
 }
 
-#logo{
- font-family: Carattere;
- font-weight: bold;
- font-size: 55px;
- color: var(--primary-color);
+#logo {
+    font-family: Carattere;
+    font-weight: bold;
+    font-size: 55px;
+    color: var(--primary-color);
 }
 
-.space-header{
+.space-header {
     width: 60vw;
 }
 
-#about-btn{
+#about-btn {
     padding: 8px 12px;
     font-family: var(--primary-font);
     color: rgb(53, 53, 53);
@@ -61,7 +63,7 @@ ul li{
     margin-right: 30px;
 }
 
-#hello-btn{
+#hello-btn {
     padding: 8px 20px;
     font-family: europa;
     color: var(--primary-color);
@@ -70,18 +72,18 @@ ul li{
     font-size: 18px;
 }
 
-#about-btn:hover{
+#about-btn:hover {
     color: var(--primary-color);
     cursor: pointer;
 }
 
-#hello-btn:hover{
+#hello-btn:hover {
     color: white;
     background-color: var(--primary-color);
     cursor: pointer;
 }
 
-body{
+body {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -89,7 +91,7 @@ body{
     align-items: center;
 }
 
-.splash-section{
+.splash-section {
     height: auto;
     display: flex;
     flex-direction: column;
@@ -97,7 +99,7 @@ body{
     align-items: center;
 }
 
-.splash-section div:first-child{
+.splash-section div:first-child {
     height: 500px;
     width: 100vw;
     display: flex;
@@ -106,27 +108,28 @@ body{
     align-items: center;
 }
 
-.splash-section h1{
+.splash-section h1 {
     margin: 100px 0 24px 0;
     font-size: 40px;
-    font-family: Source Code Pro;
+    font-family: var(--secondary-font);
     font-weight: bold;
 }
 
-.splash-section p{
+.splash-section p {
     font-family: var(--primary-font);
     font-size: 24px;
 }
-#avatar{
+
+#avatar {
     margin: 75px 0 100px 0;
 }
 
-#devices-illutration{
+#devices-illutration {
     max-width: 860px;
     margin: 80px 0 0 0;
 }
 
-.about-section{
+.about-section {
     background-color: var(--primary-color);
     color: white;
     height: 600px;
@@ -137,23 +140,110 @@ body{
     padding: 150px 0 0 0;
 }
 
-.about-section div{
+.about-section div {
     width: 45vw;
 }
 
-.about-section h1{
+.about-section h1 {
     margin: 0 0 30px 0;
     font-size: 32px;
-    font-family: Source Code Pro;
+    font-family: var(--secondary-font);
     font-weight: bold;
     justify-content: center;
     display: flex;
 }
 
-.about-section p{
+.about-section p {
     font-family: var(--primary-font);
     font-size: 20px;
     line-height: 40px;
     text-align: center;
 }
 
+
+/* Skill section */
+
+.skill-section {
+    width: 100vw;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill-cards {
+    box-sizing: border-box;
+    height: 650px;
+    width: 350px;
+    padding: 50px 20px 0 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    box-shadow: 0 0 1px ;
+    position: relative;
+    top: -200px;
+}
+
+
+.skill-card-1 {
+    border-radius: 15px 0 0 15px;
+}
+
+.skill-card-2 {
+    border-radius: 0 0 0 0;
+}
+
+.skill-card-3 {
+    border-radius: 0 15px 15px 0;
+}
+
+.layer-icons {
+    background-color: var(--skill-icons-back);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icons {
+    height: 30px;
+    width: 30px;
+}
+
+.skill-cards h1 {
+    font-family: var(--secondary-font);
+    color: black;
+    font-size: 20px;
+    margin: 24px 0;
+}
+
+.skill-cards p {
+
+    font-family: var(--primary-font);
+    font-size: 15px;
+    text-align: center;
+}
+
+.sub-headlines-skill {
+    color: var(--primary-color);
+    margin: 50px 0 10px 0;
+}
+
+.skill-cards ul {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    list-style: none;
+}
+
+.skill-section li {
+    font-size: 15px;
+    padding: 5px;
+
+}
