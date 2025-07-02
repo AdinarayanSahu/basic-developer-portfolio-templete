@@ -264,3 +264,19 @@ body {
 .recent-works p{
     font-size: 18px;
 }
+
+.recent-works-showcase{
+    margin: 80px 200px 0px 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-works-showcase img{
+    margin: 20px 20px 20px 20px;
+    height: 300px;
+    width: 450px;
+    border-radius: 15px;
+}
