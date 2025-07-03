@@ -328,3 +328,84 @@ body {
     align-items: center;
     max-width: 60vw;
 }
+
+footer{
+    height: 600px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: black;
+}
+
+#logo-footer {
+    font-family: Carattere;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 200px;
+}
+
+.footer-sec-1 div:first-child{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-sec-1 div h1{
+    color: white;
+    font-family: eurostile;
+    font-weight: 100;
+    font-size: 28px;
+    text-align: center;
+}
+
+.social-media-footer{
+    gap: 30px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-footer svg{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    fill: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.copyright-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 17px;
+}
+
+.copyright-text svg{
+    height: 20px;
+    width: 20px;
+    fill: white;
+    margin: 0 7px;
+}
+
+#footer-dribble-btn:hover svg, #footer-twitter-btn:hover svg, #footer-linkedin-btn:hover svg, #footer-email-btn:hover svg, #footer-github-btn:hover svg{
+    background-color: white;
+    fill: var(--primary-color);
+    cursor: pointer;
+}
+
