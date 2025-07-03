@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: eurostile;
-    src: url(fonts/eurostile.woff);
+    src: url(fonts/fonnts.com-Eurostile_Bold.otf);
 }
 
 
@@ -19,7 +19,7 @@
 :root {
     --primary-color: rgb(110, 7, 243);
     --primary-font: 'europa', sans-serif;
-    --secondary-font: 'Source Code Pro', monospace;
+    --secondary-font: 'eurostile', monospace;
     --skill-icons-back: #5BE9B9;
 }
 
@@ -114,9 +114,10 @@ body {
 
 .splash-section h1 {
     margin: 100px 0 24px 0;
-    font-size: 40px;
+    font-size: 50px;
+    color: rgb(36, 36, 36);
     font-family: var(--secondary-font);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .splash-section p {
@@ -357,7 +358,7 @@ footer{
 
 .footer-sec-1 div h1{
     color: white;
-    font-family: eurostile;
+    font-family: var(--secondary-font);
     font-weight: 100;
     font-size: 28px;
     text-align: center;
