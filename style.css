@@ -330,7 +330,7 @@ body {
 }
 
 footer{
-    height: 600px;
+    height: 700px;
     width: 100vw;
     align-items: center;
     display: flex;
@@ -403,7 +403,7 @@ footer{
     margin: 0 7px;
 }
 
-#footer-dribble-btn:hover svg, #footer-twitter-btn:hover svg, #footer-linkedin-btn:hover svg, #footer-email-btn:hover svg, #footer-github-btn:hover svg{
+.footer-social-media-btn:hover svg{
     background-color: white;
     fill: var(--primary-color);
     cursor: pointer;
