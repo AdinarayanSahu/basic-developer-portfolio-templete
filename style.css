@@ -218,7 +218,7 @@ body {
     width: 30px;
 }
 
-.skill-cards h1, .recent-works h1 {
+.skill-cards h1, .recent-works h1, .collab-companies-section h1{
     font-family: var(--secondary-font);
     color: black;
     font-size: 23px;
@@ -250,7 +250,7 @@ body {
 
 }
 
-.recent-works{
+.recent-works, .collab-companies-section{
     width: 100vw;
     height: auto;
     margin: 100px 0 100px 0;
@@ -261,7 +261,7 @@ body {
     align-items: center;
 }
 
-.recent-works h1{
+.recent-works h1, .collab-companies-section h1{
     font-size: 30px;
 }
 
@@ -286,6 +286,7 @@ body {
 }
 
 #dribble-btn{
+    margin-bottom: 150px;
     height: 50px;
     background-color: white;
 }
@@ -299,4 +300,31 @@ body {
 
 #dribble-btn:hover svg path{
     fill: white;
+}
+
+.section-divider{
+    height: 1px;
+    width: 100%;
+    background-color: #e6ecf8;
+    border: none;
+}
+
+.collab-companies-section h1{
+    width: 40vw;
+    text-align: center;
+}
+
+.collab-companies-showcase img{
+    height: 150px;
+    width: 300px;
+}
+
+.collab-companies-showcase {
+    margin: 80px 200px 80px 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
 }
