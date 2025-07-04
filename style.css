@@ -63,7 +63,7 @@ ul li {
     margin-right: 30px;
 }
 
-#hello-btn, #dribble-btn {
+#hello-btn, #dribble-btn{
     padding: 8px 20px;
     font-family: europa;
     color: var(--primary-color);
@@ -81,7 +81,7 @@ ul li {
     cursor: pointer;
 }
 
-#hello-btn:hover, #dribble-btn:hover, #dribble-btn:hover svg path {
+#hello-btn:hover, #dribble-btn:hover {
     color: white;
     background-color: var(--primary-color);
     cursor: pointer;
@@ -94,6 +94,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 .splash-section {
     height: auto;
@@ -262,7 +263,7 @@ body {
     align-items: center;
 }
 
-.recent-works h1, .collab-companies-section h1{
+.recent-works h1, .collab-companies-section h1, {
     font-size: 30px;
 }
 
@@ -313,6 +314,7 @@ body {
 .collab-companies-section h1{
     width: 40vw;
     text-align: center;
+    font-size: 35px;
 }
 
 .collab-companies-showcase img{
@@ -330,8 +332,71 @@ body {
     max-width: 60vw;
 }
 
+
+.project-contact-message-section{
+    background-color: #141c3a;
+    height: 180px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -100px;
+    color: white;
+    border-radius: 15px;
+}
+
+.project-contact-message-section h1{
+    font-size: 32px;
+    font-family: var(--secondary-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-contact-message-section p{
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--primary-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lets-do-btn{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    font-family: europa;
+    border: 2px solid #5BE9B9;
+    border-radius: 5555px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+}
+
+#lets-do-btn svg{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    fill: var(--primary-color);
+}
+
+#lets-do-btn:hover{
+    background-color: #5BE9B9;
+    color: #141c3a;
+    cursor: pointer;
+}
+
+/* Footer area starts from here */
+
 footer{
-    height: 700px;
+    height: 600px;
     width: 100vw;
     align-items: center;
     display: flex;
@@ -346,7 +411,7 @@ footer{
     font-size: 60px;
     color: white;
     margin-bottom: 40px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .footer-sec-1 div:first-child{
