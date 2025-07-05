@@ -63,7 +63,8 @@ ul li {
     margin-right: 30px;
 }
 
-#hello-btn, #dribble-btn{
+#hello-btn,
+#dribble-btn {
     padding: 8px 20px;
     font-family: europa;
     color: var(--primary-color);
@@ -81,7 +82,8 @@ ul li {
     cursor: pointer;
 }
 
-#hello-btn:hover, #dribble-btn:hover {
+#hello-btn:hover,
+#dribble-btn:hover {
     color: white;
     background-color: var(--primary-color);
     cursor: pointer;
@@ -188,7 +190,7 @@ body {
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    box-shadow: 0 0 1px ;
+    box-shadow: 0 0 1px;
     margin-top: -200px;
 }
 
@@ -220,14 +222,17 @@ body {
     width: 30px;
 }
 
-.skill-cards h1, .recent-works h1, .collab-companies-section h1{
+.skill-cards h1,
+.recent-works h1,
+.collab-companies-section h1 {
     font-family: var(--secondary-font);
     color: black;
     font-size: 23px;
     margin: 24px 0;
 }
 
-.skill-cards p, .recent-works p {
+.skill-cards p,
+.recent-works p {
 
     font-family: var(--primary-font);
     font-size: 17px;
@@ -252,7 +257,8 @@ body {
 
 }
 
-.recent-works, .collab-companies-section{
+.recent-works,
+.collab-companies-section {
     width: 100vw;
     height: auto;
     margin: 100px 0 100px 0;
@@ -263,15 +269,16 @@ body {
     align-items: center;
 }
 
-.recent-works h1, .collab-companies-section h1, {
+.recent-works h1,
+.collab-companies-section h1 {
     font-size: 30px;
 }
 
-.recent-works p{
+.recent-works p {
     font-size: 18px;
 }
 
-.recent-works-showcase{
+.recent-works-showcase {
     margin: 80px 200px 80px 200px;
     display: flex;
     flex-direction: row;
@@ -280,60 +287,60 @@ body {
     align-items: center;
 }
 
-.recent-works-showcase img{
+.recent-works-showcase img {
     margin: 20px 20px 20px 20px;
-    height: 300px;
+    height: auto;
     width: 450px;
     border-radius: 15px;
 }
 
-#dribble-btn{
+#dribble-btn {
     margin-bottom: 150px;
     height: 50px;
     background-color: white;
 }
 
-#dribble-btn svg{
+#dribble-btn svg {
     margin-right: 10px;
     height: 20px;
     width: 20px;
     fill: var(--primary-color);
 }
 
-#dribble-btn:hover svg path{
+#dribble-btn:hover svg path {
     fill: white;
 }
 
-.section-divider{
+.section-divider {
     height: 1px;
     width: 100%;
     background-color: #e6ecf8;
     border: none;
 }
 
-.collab-companies-section h1{
+.collab-companies-section h1 {
     width: 40vw;
     text-align: center;
     font-size: 35px;
 }
 
-.collab-companies-showcase img{
-    height: 150px;
-    width: 300px;
+.collab-companies-showcase img {
+    height: auto;
+    width: 350px;
 }
 
 .collab-companies-showcase {
-    margin: 80px 200px 80px 200px;
+    margin: 80px 200px 0px 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 60vw;
+    max-width: 70vw;
 }
 
 
-.project-contact-message-section{
+.project-contact-message-section {
     background-color: #141c3a;
     height: 180px;
     width: 80vw;
@@ -347,7 +354,7 @@ body {
     border-radius: 15px;
 }
 
-.project-contact-message-section h1{
+.project-contact-message-section h1 {
     font-size: 32px;
     font-family: var(--secondary-font);
     display: flex;
@@ -355,7 +362,7 @@ body {
     align-items: center;
 }
 
-.project-contact-message-section p{
+.project-contact-message-section p {
     width: 30%;
     text-align: center;
     font-size: 18px;
@@ -366,7 +373,7 @@ body {
     line-height: 30px;
 }
 
-#lets-do-btn{
+#lets-do-btn {
     height: 60px;
     background-color: transparent;
     color: white;
@@ -381,14 +388,14 @@ body {
     width: 13vw;
 }
 
-#lets-do-btn svg{
+#lets-do-btn svg {
     margin-right: 10px;
     height: 25px;
     width: 25px;
     fill: var(--primary-color);
 }
 
-#lets-do-btn:hover{
+#lets-do-btn:hover {
     background-color: #5BE9B9;
     color: #141c3a;
     cursor: pointer;
@@ -396,7 +403,7 @@ body {
 
 /* Footer area starts from here */
 
-footer{
+footer {
     height: 600px;
     width: 100vw;
     align-items: center;
@@ -415,14 +422,14 @@ footer{
     margin-top: 150px;
 }
 
-.footer-sec-1 div:first-child{
+.footer-sec-1 div:first-child {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.footer-sec-1 div h1{
+.footer-sec-1 div h1 {
     color: white;
     font-family: var(--secondary-font);
     font-weight: 100;
@@ -430,7 +437,7 @@ footer{
     text-align: center;
 }
 
-.social-media-footer{
+.social-media-footer {
     gap: 30px;
     margin: 50px;
     display: flex;
@@ -438,7 +445,7 @@ footer{
     justify-content: center;
 }
 
-.social-media-footer svg{
+.social-media-footer svg {
     margin-right: 10px;
     height: 25px;
     width: 25px;
@@ -448,13 +455,13 @@ footer{
     border-radius: 50px;
 }
 
-.copyright-text{
+.copyright-text {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.copyright-text p{
+.copyright-text p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -463,16 +470,15 @@ footer{
     font-size: 17px;
 }
 
-.copyright-text svg{
+.copyright-text svg {
     height: 20px;
     width: 20px;
     fill: white;
     margin: 0 7px;
 }
 
-.footer-social-media-btn:hover svg{
+.footer-social-media-btn:hover svg {
     background-color: white;
     fill: var(--primary-color);
     cursor: pointer;
 }
-
