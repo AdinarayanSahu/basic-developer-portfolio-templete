@@ -26,6 +26,8 @@ html {
 }
 
 body {
+    width: 100%;
+    overflow-x: hidden;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
@@ -45,9 +47,10 @@ header {
 }
 
 main {
-    width: 100%;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 ul {
@@ -126,16 +129,19 @@ ul li {
 }
 
 .splash-section h1 {
-    margin: 100px 0 24px 0;
+    margin: 100px 20px 24px 20px;
     font-size: 50px;
     color: rgb(36, 36, 36);
     font-family: var(--secondary-font);
     font-weight: 700;
+    text-align: center;
 }
 
 .splash-section p {
     font-family: var(--primary-font);
     font-size: 24px;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
 }
 
 #avatar {
@@ -151,6 +157,7 @@ ul li {
     background-color: var(--primary-color);
     color: white;
     height: 600px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -270,7 +277,7 @@ ul li {
 
 .recent-works,
 .collab-companies-section {
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin: 100px 0 100px 0;
     min-height: 500px;
@@ -290,7 +297,7 @@ ul li {
 }
 
 .recent-works-showcase {
-    margin: 80px 200px 80px 200px;
+    padding: 80px 10vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -299,9 +306,9 @@ ul li {
 }
 
 .recent-works-showcase img {
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
     height: auto;
-    width: 450px;
+    width: 22vw;
     border-radius: 15px;
 }
 
@@ -418,7 +425,7 @@ ul li {
 
 footer {
     height: 600px;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -494,30 +501,4 @@ footer {
     background-color: white;
     fill: var(--primary-color);
     cursor: pointer;
-}
-
-@media screen and (max-width: 700px) {
-    .project-contact-message-section {
-        flex-direction: column;
-        height: auto;
-        padding: 30px;
-    }
-
-    #lets-do-btn {
-        height: 50px;
-    }
-
-    .project-contact-message-section p {
-        width: 80%;
-        margin: 20px;
-    }
-
-    #devices-illutration {
-        max-width: 90vw;
-        margin: 80px 0 0 0;
-    }
-
-    .space-header {
-        width: 30vw;
-    }
 }
